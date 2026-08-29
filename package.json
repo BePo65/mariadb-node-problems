@@ -1,0 +1,26 @@
+{
+  "name": "mariadb-node-problems",
+  "version": "0.1.0",
+  "description": "Reproduce problems with sticky connections using mariadb node connector",
+  "homepage": "https://github.com/BePo65/mariadb-node-problems#readme",
+  "bugs": {
+    "url": "https://github.com/BePo65/mariadb-node-problems/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BePo65/mariadb-node-problems.git"
+  },
+  "license": "MIT",
+  "author": "BePo65",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test test/test.1.spec.js"
+  },
+  "dependencies": {
+    "mariadb": "^3.5.3"
+  }
+}
